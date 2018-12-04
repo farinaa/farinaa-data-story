@@ -1,0 +1,16 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  display: grid;
+  height: 150px;
+}
+
+section#profile-pic {
+  grid-column: 2 / 3;
+}
+
+img {
+  justify-content: center;
+}
