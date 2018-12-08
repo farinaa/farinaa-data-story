@@ -10,22 +10,28 @@ header {
   display: grid;
 }
 
+h1 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
 /* Center profile picture at top of website */
 section#profile-pic {
   grid-column: 2 / 3;
-  grid-row: 1 / 2;
+  grid-row: 2 / 3;
+  margin: auto;
 }
 
 /* Place text for profile picture under the centered profile picture */
 section#profile-text {
   grid-column: 1 / 4;
-  grid-row: 2 / 3;
+  grid-row: 3 / 4;
 }
 
 /* Set up middle website grid */
 main {
   display: grid;
-  grid-gap: 0px 35px;
+  grid-gap: 0px 25px;
 }
 
 /* Place the data collection picture on the left */
