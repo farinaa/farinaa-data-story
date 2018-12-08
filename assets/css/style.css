@@ -1,48 +1,59 @@
+
+/* Website format */
 html {
   font-size: 18px;
   background-image: linear-gradient(to bottom right, lightblue, yellow);
 }
 
+/* Set up top website grid */
 header {
   display: grid;
-  /* height: 300px; */
 }
 
+/* Center profile picture at top of website */
 section#profile-pic {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
 }
 
+/* Place text for profile picture under the centered profile picture */
 section#profile-text {
   grid-column: 1 / 4;
   grid-row: 2 / 3;
 }
 
+/* Set up middle website grid */
 main {
   display: grid;
   grid-gap: 0px 35px;
 }
 
+/* Place the data collection picture on the left */
 section#data-collection-pic {
   grid-column: 2 / 3;
 }
 
+/* Place the data visualization picture in the middle */
 section#data-viz-pic {
   grid-column: 5 / 6;
 }
 
+/* Place the explained video project on the right */
 section#explained-video {
   grid-column: 8 / 9;
 }
 
+/* Place the data collection text under the data collection picture */
 section#data-collection-text {
   grid-column: 1 / 4;
 }
 
+/* Place the data visualization text under the data visualization picture */
 section#data-viz-text {
   grid-column: 4 / 7;
 }
 
+/* Place the explained video text under the explained video project */
 section#explained-video-text {
   grid-column: 7 / 10;
 }
