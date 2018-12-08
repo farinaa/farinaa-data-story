@@ -1,5 +1,6 @@
 html {
   font-size: 18px;
+  background-image: linear-gradient(to bottom right, lightblue, yellow);
 }
 
 header {
@@ -19,7 +20,7 @@ section#profile-text {
 
 main {
   display: grid;
-  grid-gap: 35px;
+  grid-gap: 0px 35px;
 }
 
 section#data-collection-pic {
