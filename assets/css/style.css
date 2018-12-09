@@ -4,6 +4,11 @@ html {
   font-size: 18px;
 }
 
+/* All figure captions should be centered below the figure */
+figcaption {
+  text-align: center;
+}
+
 /* Set up top website grid */
 header {
   display: grid;
@@ -40,6 +45,12 @@ main {
   grid-gap: 0px 25px;
 }
 
+/* Place the data collection title on the left */
+section#data-collection-title {
+  grid-column: 2 / 3;
+  margin: auto;
+}
+
 /* Change size of data collection picture */
 img#data-collection {
   height: 200px;
@@ -51,6 +62,12 @@ section#data-collection-pic {
   grid-column: 2 / 3;
 }
 
+/* Place the data visualization title in the middle */
+section#data-visualization-title {
+  grid-column: 5 / 6;
+  margin: auto;
+}
+
 /* Change size of data visualization picture */
 img#data-visualization {
   height: 200px;
@@ -60,6 +77,12 @@ img#data-visualization {
 /* Place the data visualization picture in the middle */
 section#data-viz-pic {
   grid-column: 5 / 6;
+}
+
+/* Place the explained video title on the right */
+section#explained-video-title {
+  grid-column: 8 / 9;
+  margin: auto;
 }
 
 /* Change size of explained video thumbnail */
