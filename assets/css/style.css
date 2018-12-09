@@ -51,6 +51,18 @@ section#data-collection-title {
   margin: auto;
 }
 
+/* Place the data visualization title in the middle */
+section#data-visualization-title {
+  grid-column: 5 / 6;
+  margin: auto;
+}
+
+/* Place the explained video title on the right */
+section#explained-video-title {
+  grid-column: 8 / 9;
+  margin: auto;
+}
+
 /* Change size of data collection picture */
 img#data-collection {
   height: 200px;
@@ -62,12 +74,6 @@ section#data-collection-pic {
   grid-column: 2 / 3;
 }
 
-/* Place the data visualization title in the middle */
-section#data-visualization-title {
-  grid-column: 5 / 6;
-  margin: auto;
-}
-
 /* Change size of data visualization picture */
 img#data-visualization {
   height: 200px;
@@ -77,12 +83,6 @@ img#data-visualization {
 /* Place the data visualization picture in the middle */
 section#data-viz-pic {
   grid-column: 5 / 6;
-}
-
-/* Place the explained video title on the right */
-section#explained-video-title {
-  grid-column: 8 / 9;
-  margin: auto;
 }
 
 /* Change size of explained video thumbnail */
@@ -106,7 +106,7 @@ section#data-viz-text {
   grid-column: 4 / 7;
 }
 
-/* Place explained video text under explained video project */
+/* Place explained video text under explained video thumbnail */
 section#explained-video-text {
   grid-column: 7 / 10;
 }
