@@ -1,7 +1,7 @@
-/* Website format */
+/* Entire website format */
 html {
-  font-size: 18px;
   background-image: linear-gradient(to bottom right, lightblue, yellow);
+  font-size: 18px;
 }
 
 /* Set up top website grid */
@@ -9,14 +9,16 @@ header {
   display: grid;
 }
 
+/* Website title at top */
 h1 {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
 }
 
+/* Change size of profile picture */
 img#profile-picture {
-  width: 250px;
   height: 250px;
+  width: 250px;
 }
 
 /* Center profile picture at top of website */
@@ -26,7 +28,7 @@ section#profile-pic {
   margin: auto;
 }
 
-/* Place text for profile picture under the centered profile picture */
+/* Place text for profile picture under centered profile picture */
 section#profile-text {
   grid-column: 1 / 4;
   grid-row: 3 / 4;
@@ -38,19 +40,21 @@ main {
   grid-gap: 0px 25px;
 }
 
+/* Change size of data collection picture */
 img#data-collection {
-  width: 300px;
   height: 200px;
+  width: 300px;
 }
 
-/* Place the data collection picture on the left */
+/* Place data collection picture on the left */
 section#data-collection-pic {
   grid-column: 2 / 3;
 }
 
+/* Change size of data visualization picture */
 img#data-visualization {
-  width: 300px;
   height: 200px;
+  width: 300px;
 }
 
 /* Place the data visualization picture in the middle */
@@ -58,27 +62,28 @@ section#data-viz-pic {
   grid-column: 5 / 6;
 }
 
+/* Change size of explained video thumbnail */
 img#explained-video {
-  width: 300px;
   height: 200px;
+  width: 300px;
 }
 
-/* Place the explained video project on the right */
+/* Place the explained video thumbnail on the right */
 section#explained-video {
   grid-column: 8 / 9;
 }
 
-/* Place the data collection text under the data collection picture */
+/* Place data collection text under data collection picture */
 section#data-collection-text {
   grid-column: 1 / 4;
 }
 
-/* Place the data visualization text under the data visualization picture */
+/* Place data visualization text under data visualization picture */
 section#data-viz-text {
   grid-column: 4 / 7;
 }
 
-/* Place the explained video text under the explained video project */
+/* Place explained video text under explained video project */
 section#explained-video-text {
   grid-column: 7 / 10;
 }
